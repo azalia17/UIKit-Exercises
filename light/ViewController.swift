@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var lightButton: UIButton!
+//    @IBOutlet var lightButton: UIButton!
     var lightOn = true
 
     override func viewDidLoad() {
@@ -17,13 +17,14 @@ class ViewController: UIViewController {
     }
 
     fileprivate func updateUI() {
-        if lightOn {
-            view.backgroundColor = .white
-            lightButton.setTitle("Off", for: .normal)
-        } else {
-            view.backgroundColor = .black
-            lightButton.setTitle( "On", for: .normal)
-        }
+        view.backgroundColor = lightOn ? .white : .black
+//        if lightOn {
+//            view.backgroundColor = .white
+//            lightButton.setTitle("Off", for: .normal)
+//        } else {
+//            view.backgroundColor = .black
+//            lightButton.setTitle( "On", for: .normal)
+//        }
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
