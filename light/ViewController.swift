@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
     fileprivate func updateUI() {
         if lightOn {
             view.backgroundColor = .white
