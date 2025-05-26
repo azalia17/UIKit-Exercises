@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Red-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrafficSegues" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,7 +21,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="ju7-96-bwS" kind="presentation" id="NFL-Yn-F0C"/>
+                                    <segue destination="ju7-96-bwS" kind="show" id="NFL-Yn-F0C"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,7 +32,7 @@
                             <constraint firstItem="h3R-4I-FbB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tfK-it-5Mu"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="F9L-Dd-ze2"/>
+                    <navigationItem key="navigationItem" title="Red" id="F9L-Dd-ze2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,15 +43,15 @@
             <objects>
                 <viewController id="ju7-96-bwS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xWl-9I-hVT">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijy-xH-YFo">
-                                <rect key="frame" x="159" y="403.66666666666669" width="75" height="35"/>
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="zpb-xF-QoL" kind="presentation" id="tuZ-1M-7oh"/>
+                                    <segue destination="zpb-xF-QoL" kind="show" id="tuZ-1M-7oh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,6 +62,7 @@
                             <constraint firstItem="ijy-xH-YFo" firstAttribute="centerX" secondItem="xWl-9I-hVT" secondAttribute="centerX" id="drU-9e-i2G"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="eqD-8S-Tt9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0eJ-4R-Ffl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,12 +73,11 @@
             <objects>
                 <viewController id="zpb-xF-QoL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gMP-AZ-Euc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sat-ys-032">
-                                <rect key="frame" x="155" y="404" width="84" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sat-ys-032">
+                                <rect key="frame" x="154.66666666666666" y="408.66666666666669" width="84" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
                                 <connections>
@@ -87,7 +87,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0GX-f9-IVD"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="sat-ys-032" firstAttribute="centerX" secondItem="gMP-AZ-Euc" secondAttribute="centerX" id="cpy-VU-wsN"/>
+                            <constraint firstItem="sat-ys-032" firstAttribute="centerY" secondItem="gMP-AZ-Euc" secondAttribute="centerY" id="rJa-5C-nBB"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="k8p-Gf-36a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ki6-qt-xRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="94k-7Q-pR7" userLabel="Exit" sceneMemberID="exit"/>
