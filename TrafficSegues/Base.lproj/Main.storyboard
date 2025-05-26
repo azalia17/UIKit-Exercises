@@ -93,7 +93,7 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Green" id="k8p-Gf-36a">
+                    <navigationItem key="navigationItem" title="Green" largeTitleDisplayMode="never" id="k8p-Gf-36a">
                         <barButtonItem key="rightBarButtonItem" title="Pop" id="Gdf-mg-42X">
                             <connections>
                                 <segue destination="94k-7Q-pR7" kind="unwind" unwindAction="unwindToRedWithUnwindSegue:" id="MsM-Qc-AcF"/>
