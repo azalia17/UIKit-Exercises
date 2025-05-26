@@ -13,8 +13,20 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("SecondViewController - View Did Load")
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("SecondViewController - View Will Appear")
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("SecondViewController - View did Appear")
+    }
 
     /*
     // MARK: - Navigation
